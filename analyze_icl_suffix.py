@@ -1,10 +1,7 @@
 import torch
 from utils import *
-import tqdm
 import pickle
 import gc
-import argparse
-import json
 
 @torch.no_grad()
 def single_sentence_eval_phrase(prefix_sentence, base_sentence, model, tokenizer, repeat_num=10, suffix_length=1):

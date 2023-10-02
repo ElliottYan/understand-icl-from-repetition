@@ -3,8 +3,6 @@ from utils import *
 import tqdm
 import pickle
 import gc
-import argparse
-import json
 import pandas as pd
 import numpy as np
 from collections import defaultdict

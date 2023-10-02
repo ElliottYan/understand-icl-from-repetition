@@ -1,15 +1,10 @@
 import torch
-# from utils import *
 import utils
 import os
 import tqdm
 import pickle
-# import gc
-# import argparse
-# import json
 import pandas as pd
 import numpy as np
-# import jsonlines
 from collections import defaultdict
 
 TASKS = [
