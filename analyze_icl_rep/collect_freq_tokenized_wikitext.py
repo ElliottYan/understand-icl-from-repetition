@@ -2,7 +2,7 @@ import tqdm
 import sys
 import jsonlines
 
-from utils import *
+from analyze_icl_rep.utils import *
 from transformers import LlamaTokenizer
 
 from sklearn.feature_extraction.text import CountVectorizer

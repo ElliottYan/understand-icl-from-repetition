@@ -1,5 +1,5 @@
 import torch
-from utils import *
+from analyze_icl_rep.utils import *
 import tqdm
 import pickle
 import gc

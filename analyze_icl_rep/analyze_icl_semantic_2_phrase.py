@@ -4,8 +4,7 @@ import torch
 import gc
 import random
 import pandas as pd
-
-from utils import *
+from analyze_icl_rep.utils import *
 
 def build_custom_parser(parser):
     # input files

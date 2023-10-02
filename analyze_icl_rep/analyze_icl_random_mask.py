@@ -5,8 +5,7 @@ import torch
 import gc
 import tqdm
 
-from utils import *
-
+from analyze_icl_rep.utils import *
 
 @torch.no_grad()
 def single_sentence_eval_icl(prefix_sentence, base_sentence, model, tokenizer, iterate_num=10, random_percentage=0.1):

@@ -1,11 +1,8 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 import pickle
-import tqdm
-import json
 import os
-import argparse
-from utils import *
+from analyze_icl_rep.utils import *
 
 @torch.no_grad()
 def single_sentence_eval(prefix_sentence, base_sentence, model, tokenizer, repeat_num=10):

@@ -1,14 +1,10 @@
 import pickle
 import os
-import math
 import torch
 import gc
-import tqdm
-import argparse
 import random
-import json
 
-from utils import *
+from analyze_icl_rep.utils import *
 
 @torch.no_grad()
 def single_sentence_eval_2_phrase(prefix_sentence, base_sentence, model, tokenizer, repeat_num=10, num_kept_phrase=2, phrase_length=2):

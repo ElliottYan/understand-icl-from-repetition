@@ -4,7 +4,7 @@ import torch
 import gc
 import random
 
-from utils import *
+from analyze_icl_rep.utils import *
 
 @torch.no_grad()
 def single_sentence_eval_2_phrase_neighbour(prefix_sentence, base_sentence, model, tokenizer, repeat_num=10, num_kept_phrase=2, phrase_length=2, phrase_distance=0, neighbour_size=5, similarity_matrix=None):
